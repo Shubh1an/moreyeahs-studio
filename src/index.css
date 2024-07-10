@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*  */
+
+@font-face {
+  font-family: "Bold"; /*Can be any text*/
+  src: local("Gilroy-Bold"), url("./fonts/Gilroy-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Light"; /*Can be any text*/
+  src: local("Gilroy-Light"), url("./fonts/Gilroy-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ExtraBold"; /*Can be any text*/
+  src: local("Gilroy-ExtraBold"),
+    url("./fonts/Gilroy-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Medium"; /*Can be any text*/
+  src: local("Gilroy-Medium"),
+    url("./fonts/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold"; /*Can be any text*/
+  src: local("Gilroy-SemiBold"),
+    url("./fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Light"; /*Can be any text*/
+  src: local("Gilroy-Light"), url("./fonts/Gilroy-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold"; /*Can be any text*/
+  src: local("Gilroy-SemiBold"), url("./fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Bold"; /*Can be any text*/
+  src: local("Gilroy-Bold"), url("./fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+.sidebar {
+  position: absolute;
+  margin-bottom: 0;
+  list-style: none;
+  padding: 1rem;
+  margin: 1rem;
+  transform: rotate(-90deg);
+  transition: opacity 0.5s 0.5s ease-in-out;
+  display: flex;
+  margin: 30rem 0 0 0;
+  width: 5vw !important;
+  background-color: black;
+  cursor: pointer !important;
+}
+.sidenavlink {
+  color: white !important;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-4%, -50%, 0);
+  margin: 0 0 0 1rem;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: "Gilroy-SemiBold";
+  cursor: pointer !important;
+  letter-spacing: 3px;
+}
